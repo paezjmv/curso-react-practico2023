@@ -48,7 +48,7 @@ function SignIn() {
         </p>
         <p>
           <span className='font-light text-sm'>Password: </span>
-          <span>{parsedAccount.password}</span>
+          <span>{parsedAccount?.password}</span>
         </p>
         <Link
           to="/">

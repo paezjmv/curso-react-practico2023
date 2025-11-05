@@ -10,7 +10,7 @@ const ShoppingCart = () => {
     context.claseProductDetail()
   }
 
-  return {
+  return (
     <div className='relative flex gap-0.5 items-center' onClick={() => openCheckoutSideMenu()}>
       <ShoppingBagIcon className='w-6 h-6 fill-none stroke-black cursor-pointer'/>
       <div className='absolute bottom-3.5 left-3.5 flex justify-center items-center
@@ -18,7 +18,7 @@ const ShoppingCart = () => {
         {context.cartProducts.length}
       </div>
     </div>
-  }
+  )
 }
 
-export default ShopingCart
+export default ShoppingCart
